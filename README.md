@@ -1,2 +1,2 @@
-# opentelemetry-project
-integrating opentelemetry with azure monitor
+# Integrating OpenTelemetry with Azure Monitor
+
