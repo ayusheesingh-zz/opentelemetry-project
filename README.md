@@ -7,5 +7,10 @@
 #### Delete previous deployments
 `<kubectl delete -f python-deployment.yaml>`<br/>
 
+#### Deploy
+`<kubectl apply -f python-deployment.yaml>`<br/>
+
 #### Execute commands from container
 `<kubectl exec -it <name of pod> /bin/bash>`<br/>
+
+*same process for deploying collector, except with ot-ai.yaml*
