@@ -13,4 +13,7 @@
 #### Execute commands from container
 `<kubectl exec -it <name of pod> /bin/bash>`<br/>
 
+###### Generate spans
+`<curl http://localhost:5001>`<br/>
+
 *same process for deploying collector, except with ot-ai.yaml*
