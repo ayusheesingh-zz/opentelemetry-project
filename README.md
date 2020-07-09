@@ -2,7 +2,7 @@
 
 This demo is a sample Python app to build the collector and exercise its tracing functionality. To build and run the demo, we will need to deploy the Python app and the collector and send traces to Azure Monitor. 
 
-# Deploying the Python Application
+## Deploying the Python Application
 #### 1. Create Docker image for Python app
 `docker build -f Dockerfile.python . -t <name:tag>` <br/>
 `docker push <name:tag>` <br/>
@@ -19,7 +19,7 @@ This demo is a sample Python app to build the collector and exercise its tracing
 
 Once that has been completed, it is time to deploy the collector.
 
-# Deploying the Collector
+## Deploying the Collector
 
 #### 1. Create Docker image for collector
 `docker build -t <name:tag> .` <br/>
@@ -38,7 +38,7 @@ Go to omsagent-otel.yaml (in kubernetes folder), and update "image" for the otel
 
 Finally, it is time to emit traces and see them in Application Insights.
 
-# Run Python application and emit traces
+## Run Python application and emit traces
 #### 1. Execute commands from container
 `kubectl exec -it <name of pod> /bin/bash`<br/>
 
