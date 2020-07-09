@@ -1,8 +1,6 @@
 # OpenTelemetry Collector Demo
 
-This demo is a sample Python app to build the collector and exercise its tracing functionality.
-
-To build and run the demo, first we will need to deploy the Python app and then the collector.
+This demo is a sample Python app to build the collector and exercise its tracing functionality. To build and run the demo, we will need to deploy the Python app and the collector and send traces to Azure Monitor. 
 
 # Deploying the Python Application
 #### 1. Create Docker image for Python app
