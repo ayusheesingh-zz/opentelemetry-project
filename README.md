@@ -22,7 +22,7 @@ To build and run the demo, first we will need to deploy the Python app and then 
 #### 5. Execute commands from container
 `kubectl exec -it <name of pod> /bin/bash`<br/>
 
-###### 6. Generate spans
+#### 6. Generate spans
 Once you are in the container, run this command (Note: if the probability sampler is enabled in the otel-collector, you might not see all the spans you send.):
 `curl http://localhost:5001`<br/>
 
