@@ -42,7 +42,7 @@ Finally, it is time to emit traces and see them in Application Insights.
 #### 1. Execute commands from container
 `kubectl exec -it <name of pod> /bin/bash`<br/>
 
-#### 6. Generate spans
+#### 2. Generate spans
 Note: if the probability sampler is enabled in the otel-collector, you might not see all the spans you send (adjust this number in collector's configuration, or disable it).
 `curl http://localhost:5001`<br/>
 
