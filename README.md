@@ -4,7 +4,7 @@ This demo is a sample Python app to build the collector and exercise its tracing
 
 To build and run the demo, first we will need to deploy the Python app and then the collector.
 
-# Deploying the Python Application
+## Deploying the Python Application
 #### 1. Create Docker image for Python app
 `docker build -f Dockerfile.python . -t <name:tag>` <br/>
 `docker push <name:tag>` <br/>
@@ -28,7 +28,7 @@ Once you are in the container, run this command (Note: if the probability sample
 
 Once that has been completed, it is time to deploy the collector.
 
-# Deploying the Collector
+## Deploying the Collector
 
 #### 1. Create Docker image for collector
 `docker build -t <name:tag> .` <br/>
